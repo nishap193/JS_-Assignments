@@ -1,0 +1,25 @@
+1. What are the differences between var, let and const?
+-> var :- The "var" keyword is used to declare variables in JavaScript. It was introduced in the early days of the language and was the only way to declare variables for a long time.
+   let :- The "let" keyword was introduced in ECMAScript 6 (also known as ES6) and is used to declare variables that can be reassigned later. "let" variables are block-scoped, which means that they are only accessible within the block of code in which they are declared.
+   const :- The "const" keyword was also introduced in ES6 and is used to declare variables that cannot be reassigned later. "const" variables are also block-scoped and behave similarly to "let" variables in that respect. 
+
+2. Difference between undefined vs not defined vs NaN.
+-> undefined:- A variable that has been declared but has not been assigned a value is of type undefined.
+   not defined:- Typically refers to a variable that has not been declared at all.
+   NaN (Not a Number):- Represents a value that is not a legal number .
+
+3. What is difference between null and undefined and where to use what?
+-> Null :- Null is an assignment value. It can be assigned to a variable as a representation of no value. 
+   Undefined :- Undefined means a variable has been declared but has yet not been assigned a value.Use null when you want to explicitly represent the absence of a value.
+
+4. What is execution context?
+-> When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles 
+   the entire transformation and execution of the code. 
+
+5. What is the use of prompt in JavaScript?
+-> The Javascript  Window prompt() method is used to display a dialog box with an optional message prompting the user to input some text. 
+   It is often used if the userwants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+
+6. Why JavaScript is a Dynamic Language?
+-> JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime 
+   and can change throughout the program as we assign different values to them.
