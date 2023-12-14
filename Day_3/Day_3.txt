@@ -1,0 +1,46 @@
+1. Write the Code for all Data types.
+-> check js document
+
+2. What are the uses of JavaScript Operators?
+-> JavaScript operators operate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.
+   In JavaScript, operators are used to compare values, perform arithmetic operations, etc.
+
+3. Explain the Assignment Operator.
+-> The assignment operation evaluates the assigned value. Chaining the assignment operator is possible in order to assign a single value to multiple variables
+   Example:-  If A = 10 and Y = A then Y = 10.
+
+4. Explain the all Arithmetic Operators.
+-> In JavaScript, arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value.
+   There are four standard arithmetic operators, addition (+), subtraction (-), multiplication (*), and division (/).
+   Arithmetic OPerators are:-
+   =>addition(+)         
+   =>subtraction(-)
+   =>multiplication(*)
+   =>division(/)
+   =>modulus(%)
+   =>Exponentiation (**)
+   =>increment(++)
+   =>decrement(--)
+   =>unary(+)
+   =>negation(-)
+
+5. What are the Binary Operators in js.
+-> These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error.
+        =>Arithmetic Operators
+        =>Comparison Operators
+        =>Assignment Operator 
+
+6. Explain the Pre-Increment and Post Increment in js.
+-> Pre-increment: The pre-increment operator (++) increases the value of a variable by 1 before using its value. 
+   Here's an example:
+   
+   let num = 5;
+   console.log(++num); // Output: 6
+   console.log(num);   // Output: 6
+   ------------------------------
+   Post-increment: The post-increment operator (++) increases the value of a variable by 1 after using its value.
+   Here's an example:
+
+   let num = 5;
+   console.log(num++); // Output: 5
+   console.log(num);   // Output: 6
