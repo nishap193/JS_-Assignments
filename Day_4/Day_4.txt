@@ -1,0 +1,29 @@
+ 1---- Create the Example for Logical Operators 
+       //check js document
+ 
+ 2---- Difference between “ == “ and “ === “ operators.
+ ----> a) = is used for assigning values to a variable, == is used for comparing two variables, but it ignores the datatype of variable whereas === is used for comparing two variables,
+            but this operator also checks datatype and compares two values.
+       b) = is called as assignment operator, == is called as comparison operator whereas It is also called as comparison operator.
+       c) = does not return true or false, == Return true only if the two operands are equal while === returns true only 
+           if both values and data types are the same for the two variables.
+
+3---- How many operators do we have in JS ?
+----> There are different types of JavaScript operators:
+            Arithmetic Operators
+            Assignment Operators
+            Comparison Operators
+            String Operators
+            Logical Operators
+            Bitwise Operators
+            Ternary Operators
+            Type Operators
+4---- What is use of parseInt in js?
+----> The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+      console.log(parseInt('123'));
+      123   //output
+
+5---- Take input from user and find the odd and even number.
+      //check js document
+
+
