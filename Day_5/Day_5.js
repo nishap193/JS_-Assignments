@@ -9,7 +9,18 @@ let num2 = 5;
 let sum = additionFunction(num1, num2);
 console.log("Sum of given numbers is :", sum);
 //2. Find if the conditions are obeyed or not? -----------------------------
-
+  let x1 = 5;
+  let x2 = 3;
+  function IsValiedFunction() {
+      if (x1 < 10 && x1 > x2) 
+      {
+          console.log(`True`)
+      }
+      else {
+              console.log(`False`)
+           }
+}
+IsValiedFunction();
 //3. .Check the conditions ----------------------------------------
  function Check(x, y){
     if(x%10==0 || y%10==0){
