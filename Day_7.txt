@@ -1,0 +1,58 @@
+1.What is the syntax for the While loop in JavaScript?
+->  while(condition){
+        //code block to be executed
+    }
+
+2.What is the syntax for the For loop in JavaScript?
+-> for (expression 1; expression 2; expression 3) {
+        // code block to be executed
+   }
+
+3.What is a nested loop in JavaScript, and why would you use one?
+-> A nested Loop is a loop that is present inside another loop. Javascript supports the nested loop in javascript.
+   The loop can have one or more or simply can have any number of loops defined inside another loop, and also can
+   behave n level of nesting inside the loop.
+   use:-The outer loop is used to iterate over the elements of the outer array. The inner loop is used to iterate
+         over the elements of the inner array. With their help, we are able to print all the elements.
+
+4.What is an infinite loop in JavaScript, and how can it be avoided?
+->An infinite loop is a piece of code that keeps running forever as the terminating condition is never reached. 
+  An infinite loop can crash your program or browser and freeze your computer. To avoid such incidents it is 
+  important to be aware of infinite loops so that we can avoid them.
+  To avoid infinite loops, it's crucial to ensure that the loop's exit condition will eventually evaluate to false. Here are some tips to prevent and detect infinite loops:
+  i-  Double-Check Conditions:
+              Review the loop conditions to ensure that they can become false during execution.
+              Verify that any variables used in the loop conditions are updated within the loop.
+  ii- Use Break Statements:
+              Introduce break statements within loops to explicitly exit the loop when a certain condition is met.
+
+5. How do you break out of two nested for loops?
+->  In JavaScript, the break statement can be used to exit out of loops, including nested loops. However, the break statement alone only exits the innermost loop. If you want to break out of both the inner and outer loops, you can use a labeled statement.
+    Here's an example of breaking out of two nested for loops using a labeled statement:
+    outerLoop: for (let i = 0; i < 3; i++) {
+      for (let j = 0; j < 3; j++) {
+        console.log(i, j);
+
+        if (condition) {
+          // Use the break statement with the label to exit both loops
+          break outerLoop;
+        }
+      }
+    }
+
+
+6. What is the difference between the break statement and the continue directive?
+-> Break :- i)Break statement stops the entire process of the loop.
+            ii)Break also terminates the remaining iterations.
+            iii)Break statement can be used with switch statements and with loops
+            iv)In the break statement, the control exits from the loop.
+            v)It is used to stop the execution of the loop at a specific condition.
+
+   continue :- i)Continue statement only stops the current iteration of the loop.
+               ii)Continue doesn’t terminate the next iterations; it resumes with the successive iterations.
+               iii)Continue statement can be used with loops but not switch statements.
+               iv)In the continue statement, the control remains within the loop.
+               v)It is used to skip a particular iteration of the loop.
+
+7. Can you stop a loop based on a specific condition?
+-> Yes, You can add a conditional terminal to configure a For Loop to stop when a condition occurs .                    
